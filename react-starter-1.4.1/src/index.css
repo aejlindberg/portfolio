@@ -17,7 +17,7 @@ button {
   color: #333;
   border-color: pink;
   border-radius: 20px;
-  width: auto;
+  width: 200px;
   padding: 15px 25px;
 }
 
@@ -25,6 +25,10 @@ h1 {
 }
 
 h2 {
+}
+
+img {
+  margin-top: 0;
 }
 
 .wrapper {
@@ -36,21 +40,19 @@ h2 {
 .aboutMeSection {
   display: flex;
   display: row;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 40px 20px 40px 0;
 }
 
 .aboutMeImage img {
-  width: 50%;
-  margin: 50px auto;
+  width: 70%;
+  margin: 40px auto;
   display: flex;
 }
 
 .techSection,
-.skillsSection,
-.studiesSection {
-  margin-right: 10px;
-  margin-bottom: 20px;
+.skillsColumns,
+.studiesColumns {
+  margin-bottom: 40px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -58,6 +60,13 @@ h2 {
 
 .skills, .studies {
   width: 250px;
+}
+
+.studiesButton {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
