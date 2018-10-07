@@ -5,5 +5,20 @@ body {
 }
 
 h2 {
-  
+
+}
+
+.wrapper {
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.aboutMe {
+  display: flex;
+  display: row;
+}
+.aboutMeImage img {
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
 }
