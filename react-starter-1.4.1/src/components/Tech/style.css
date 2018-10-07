@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.Tech {
+  width: 50%;
+}
+
+.Tech img {
+  width: 100%;
+}

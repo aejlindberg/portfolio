@@ -1,11 +1,14 @@
 import React from "react"
+import Tech from "./Tech"
+
+const techExpJson = require("./../techExp.json")
 
 class App extends React.Component {
 
   render() {
     return (
       <div className="wrapper">
-// About me Intro
+
         <div className="aboutMe">
           <div className="aboutMeImage">
             <img src="me.png" alt="Jeanette K Lindberg" />
@@ -19,14 +22,23 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-// Tech section
-        <div className="techSection">
-          <div className="techText">
-            <p>480 coding hours - 50+ individual tasks - HTML5, CSS, SASS, Flexbox,
-             JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s - 6 sprints with
-             demos together with companies like Volumental, Bonnier, Comprend @ Technigo -
-             Exploring Machine Learning</p>
-          </div>
+
+        <div className="techText">
+          <p>480 coding hours - 50+ individual tasks - HTML5, CSS, SASS, Flexbox,
+           JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s - 6 sprints with
+           demos together with companies like Volumental, Bonnier, Comprend @ Technigo -
+           Exploring Machine Learning
+          </p>
+        </div>
+        <div className="techGrid">
+          {techExpJson.experiences.map((experience) => {
+            return <Tech
+              key={experience.key}
+              title={experience.title}
+              image={experience.image}
+              description={experience.description}/>
+          }
+          )}
         </div>
       </div>
     )
