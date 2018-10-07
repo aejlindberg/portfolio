@@ -3,7 +3,8 @@
 }
 
 .Tech {
-  width: 50%;
+  width: 380px;
+  /* padding-right: 20px; */
 }
 
 .Tech img {
