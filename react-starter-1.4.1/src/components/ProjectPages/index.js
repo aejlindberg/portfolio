@@ -1,5 +1,6 @@
 import React from "react"
 import "./style.css"
+import cases from "../../techExp.json"
 
 class Project extends React.Component {
 
@@ -11,7 +12,7 @@ class Project extends React.Component {
           <img src="./techExp.jpg" alt="computer" />
         </div>
         <div className="projectText">
-          <h1>RADIO PLAYER BUILT IN REACT USING SVERIGES
+          <h1>{this.props.match.params.id}RADIO PLAYER BUILT IN REACT USING SVERIGES
           RADIOS API:S
           </h1>
           <p>About the project. Lorem ipsum dolor sit amet,
