@@ -8,11 +8,11 @@ class Cases extends React.Component {
     return (
       <div className="casesGrid">
         <div className="techSection">
-          {cases.experiences.map(experience => <Tech
-            id={experience.key}
-            title={experience.title}
-            image={experience.image}
-            description={experience.description} />)}
+          {cases.item.map(item => <Tech
+            id={item.key}
+            title={item.title}
+            image={item.image}
+            description={item.description} />)}
         </div>
 
       </div>

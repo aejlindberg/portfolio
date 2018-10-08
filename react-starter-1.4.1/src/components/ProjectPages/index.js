@@ -9,10 +9,10 @@ class Project extends React.Component {
       <div className="projectPage">
         <a href="#">&#8592; BACK</a>
         <div className="projectImage">
-          <img src="./techExp.jpg" alt="computer" />
+          <img src="/images/techExp.jpg" alt="computer" />
         </div>
         <div className="projectText">
-          <h1>{this.props.match.params.id}RADIO PLAYER BUILT IN REACT USING SVERIGES
+          <h1>Case {this.props.match.params.id} RADIO PLAYER BUILT IN REACT USING SVERIGES
           RADIOS API:S
           </h1>
           <p>About the project. Lorem ipsum dolor sit amet,

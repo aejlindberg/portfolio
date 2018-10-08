@@ -1,5 +1,5 @@
 {
-  "experiences": [{
+  "item": [{
       "key": 1,
       "title": "Radio player built in React using Sveriges Radios API:s",
       "image": "/images/techExp.jpg",
