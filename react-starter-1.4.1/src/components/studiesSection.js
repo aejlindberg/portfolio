@@ -8,7 +8,7 @@ class Studies extends React.Component {
         <h2>STUDIES</h2>
         <div className="studiesColumns">
           <div className="studies">
-            <p><strong>FRONTEND DEVELOPER</strong></p>
+            <h3>FRONTEND DEVELOPER</h3>
             <p>Full-time 12 w boot camp / intensive program.
             Covering everything from the basics of programming
             to how to structure and build bigger web projects.
@@ -21,26 +21,26 @@ class Studies extends React.Component {
             <p>Sthlm Sep.-Nov. 2018</p>
           </div>
           <div className="studies">
-            <p><strong>JAVASCRIPT</strong></p>
+            <h3>JAVASCRIPT</h3>
             <p>3 day intensive course in JavaScript. Build a
             newsite with Google News API.
             </p>
             <p>Visby Sep. 2018</p>
           </div>
           <div className="studies">
-            <p><strong>HTML AND CSS</strong></p>
+            <h3>HTML AND CSS</h3>
             <p>Online Course. Build a webpage in HTML & CSS.
             </p>
             <p>Sthlm Feb. 2018</p>
           </div>
           <div className="studies">
-            <p><strong>WORDPRESS</strong></p>
+            <h3>WORDPRESS</h3>
             <p>Introduction to WordPress.
             </p>
             <p>Sthlm Feb. 2014</p>
           </div>
           <div className="studies">
-            <p><strong>MASTER IN SOCIAL ANTHROPOLOGY</strong></p>
+            <h3>MASTER IN SOCIAL ANTHROPOLOGY</h3>
             <p>5 years at Stockholm University.
             </p>
             <p>Sthlm Sep. 2005-Sep. 2010</p>

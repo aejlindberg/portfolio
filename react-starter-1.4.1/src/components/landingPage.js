@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
             </div>
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
-              <h1>FRONTEND DEVELOPER</h1>
+              <h1>FRONTEND<br />DEVELOPER<br />+ TREND ANALYST</h1>
               <p>Hello this is me! I am awsome and super duper
               mega smart and likes strawberries and ice cream.
               </p>
@@ -44,10 +44,9 @@ class LandingPage extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <p><strong>JEANETTE K LINDBERG</strong>
-            <br />aejlindberg@gmail.com<br />
-          +4676 020 69 51
-          </p>
+          <h3>JEANETTE K LINDBERG</h3>
+          <p>aejlindberg@gmail.com</p>
+          <p>+4676 020 69 51</p>
         </div>
       </div>
 

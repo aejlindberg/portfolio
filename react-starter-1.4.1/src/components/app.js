@@ -5,8 +5,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import LandingPage from "./landingPage.js"
 import Project from "./ProjectPages"
 
-// const techExpJson = require("./../techExp.json")
-
 class App extends React.Component {
 
   render() {

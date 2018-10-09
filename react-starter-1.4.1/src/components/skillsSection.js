@@ -8,7 +8,7 @@ class Skills extends React.Component {
         <h2>SKILLS</h2>
         <div className="skillsColumns">
           <div className="skills">
-            <p><strong>CODE</strong></p>
+            <h3>CODE</h3>
             <p>HTML5</p>
             <p>CSS3</p>
             <p>JavaScript ES6</p>
@@ -19,7 +19,7 @@ class Skills extends React.Component {
             <p>MongoDB</p>
           </div>
           <div className="skills">
-            <p><strong>TOOLBOX</strong></p>
+            <h3>TOOLBOX</h3>
             <p>ATOM</p>
             <p>Postman</p>
             <p>Adobe Photoshop</p>
@@ -30,15 +30,12 @@ class Skills extends React.Component {
             <p>Slack</p>
           </div>
           <div className="skills">
-            <p><strong>MORE</strong></p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
-            <p>xxx</p>
+            <h3>MORE</h3>
+            <p>Trend analysis</p>
+            <p>Ethnography</p>
+            <p>Strategy</p>
+            <p>Agile methodology</p>
+            <p>Digital design</p>
           </div>
         </div>
       </div>

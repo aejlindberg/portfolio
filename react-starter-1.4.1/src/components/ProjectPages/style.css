@@ -1,31 +1,19 @@
 img {
   width: 100%;
-  margin-top: 20px;
 }
 
-.projectPage {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.techSpecsSection {
+/* .techSpecsSection {
   margin-top: 80px;
-}
+} */
 
-.projectTechSpecs {
+/* .projectTechSpecs {
   margin-right: 10px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.techSpecs {
+/* .techSpecs {
   width: 250px;
-}
-
-.projectButton {
-  display: flex;
-  justify-content: center;
-}
+} */

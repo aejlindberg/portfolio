@@ -13,8 +13,7 @@ class Cases extends React.Component {
           {projectsJson.cases.map(item => <Tech
             id={item.key}
             title={item.title}
-            image={item.image}
-            description={item.description} />)}
+            image={item.image} />)}
         </div>
       </div>
 
