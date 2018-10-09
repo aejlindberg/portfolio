@@ -1,5 +1,5 @@
 {
-  "item": [{
+  "cases": [{
       "key": 1,
       "title": "Radio player built in React using Sveriges Radios API:s",
       "image": "/images/techExp.jpg",
@@ -13,13 +13,13 @@
     },
     {
       "key": 3,
-      "title": "Radio player built in React using Sveriges Radios API:s",
+      "title": "Weather Chrome Extension build on Open Weather API.",
       "image": "/images/techExp.jpg",
       "description": "About the project. Lorem ipsum dolor sit amet..."
     },
     {
       "key": 4,
-      "title": "Radio player built in React using Sveriges Radios API:s",
+      "title": "One-pager in HTML5 and CSS3 using flexbox. Client: Volumental.",
       "image": "/images/techExp.jpg",
       "description": "About the project. Lorem ipsum dolor sit amet..."
     },

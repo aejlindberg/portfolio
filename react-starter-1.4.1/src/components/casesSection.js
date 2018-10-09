@@ -1,20 +1,21 @@
 import React from "react"
 import Tech from "./Tech"
-import cases from "../techExp.json"
+import projectsJson from "../techExp.json"
 
 class Cases extends React.Component {
 
   render() {
+    console.log(projectsJson.cases)
+
     return (
       <div className="casesGrid">
         <div className="techSection">
-          {cases.item.map(item => <Tech
+          {projectsJson.cases.map(item => <Tech
             id={item.key}
             title={item.title}
             image={item.image}
             description={item.description} />)}
         </div>
-
       </div>
 
     )
