@@ -18,7 +18,7 @@ button {
   border-radius: 20px;
   color: #1B998B;
   font-family: "Maven Pro", sans-serif;
-  margin-bottom: 50px;
+  margin: 40px auto;
   padding: 15px 25px;
   width: 200px;
 }
@@ -53,12 +53,17 @@ img {
   display: row;
 }
 
+.aboutMeImage {
+  width: 40%;
+}
+
 .aboutMeImage img {
   margin-top: 40px;
   width: 100%;
 }
 
 .aboutMeText {
+  width: 60%;
   margin-left: 80px;
 }
 
@@ -71,6 +76,7 @@ img {
 .techSection,
 .skillsColumns,
 .studiesColumns {
+  width: 100%;
   margin-bottom: 50px;
   display: flex;
   flex-flow: row wrap;
@@ -99,7 +105,7 @@ img {
 
 .skills,
 .studies {
-  width: 30%;
+  width: 33%;
 }
 
 .projectButton,
@@ -121,9 +127,6 @@ img {
   text-align: center;
 }
 
-.footer h3 {
-  margin: 0;
-}
 .footer p {
   margin: 0;
 }
