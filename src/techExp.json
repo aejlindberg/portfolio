@@ -1,9 +1,9 @@
 {
   "cases": [{
       "key": 1,
-      "title": "Radio player built in React using Sveriges Radios API:s",
+      "title": "A clock built in React",
       "image": "/images/case1.jpg",
-      "description": "About the project. Lorem ipsum dolor sit amet..."
+      "description": "About the project. Built a clock by using state in React. Added two buttons, one that pauses the clock and one that makes the clock run again. Used CSS for styling and to make the background change based on the time of the day."
     },
     {
       "key": 2,

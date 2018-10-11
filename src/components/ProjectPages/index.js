@@ -19,7 +19,7 @@ render() {
         <div className="caseDescription">
           <h1>{this.state.caseInView.title}
           </h1>
-          <p>{this.state.caseInView.description}</p>
+          <p><span>About the project:</span> {this.state.caseInView.description}</p>
           <button>SEE IT LIVE</button>
         </div>
 
