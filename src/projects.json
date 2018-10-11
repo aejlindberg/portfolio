@@ -1,0 +1,46 @@
+{
+  "cases": [{
+      "key": 1,
+      "title": "Clock built in React",
+      "image": "/images/case1.jpg",
+      "description": "Built a clock by using state in React. Added two buttons, one that pauses the clock and one that makes the clock run again. Used CSS for styling and to make the background change based on the time of the day.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+      "toolbox": ["Atom", "Postman"],
+      "more": ["Concept development", "Agile methodology"]
+    },
+    {
+      "key": 2,
+      "title": "Radio player built in React using Sveriges Radios API",
+      "image": "/images/case2.jpg",
+      "description": "Created a working radio player by using Sveriges Radio API. Fetched information about the radio channels and playable audio stream urls.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+      "toolbox": ["Atom", "Postman"],
+      "more": ["Concept development", "Agile methodology"]
+    },
+    {
+      "key": 3,
+      "title": "FAQ-site with JavaScript",
+      "image": "/images/case3.jpg",
+      "description": "About the project. Lorem ipsum dolor sit amet..."
+    },
+    {
+      "key": 4,
+      "title": "Product listing with React",
+      "image": "/images/case4.jpg",
+      "description": "About the project. Lorem ipsum dolor sit amet..."
+    },
+    {
+      "key": 5,
+      "title": "Radio player built in React using Sveriges Radios API:s",
+      "image": "/images/case5.jpg",
+      "description": "About the project. Lorem ipsum dolor sit amet..."
+    },
+    {
+      "key": 6,
+      "title": "Radio player built in React using Sveriges Radios API:s",
+      "image": "/images/case6.jpg",
+      "description": "About the project. Lorem ipsum dolor sit amet..."
+    }
+
+  ]
+}

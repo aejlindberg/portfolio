@@ -16,10 +16,10 @@ class LandingPage extends React.Component {
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
               <h1>FRONTEND<br />DEVELOPER<br />+ TREND ANALYST</h1>
-              <p>I am Jeanette, frontend developer and trend analyst.
+              <p>I am Jeanette, a frontend developer and trend analyst.
               My expertise is the digitization of society and the effect
               on people, and with my programming skills this makes a
-              perfect match.
+              perfect match &#9734;
               </p>
               <div className="aboutMeButton">
                 <button>SEE MY GITHUB</button>

@@ -1,6 +1,6 @@
 import React from "react"
 import Tech from "./Tech"
-import projectsJson from "../techExp.json"
+import projectsJson from "../projects.json"
 
 class Cases extends React.Component {
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./style.css"
-import projectsJson from "../../techExp.json"
+import projectsJson from "../../projects.json"
 
 class Project extends React.Component {
 
@@ -9,6 +9,17 @@ state = {
   caseInView: projectsJson.cases[this.props.match.params.id - 1]
 }
 render() {
+
+  const listCode = this.state.caseInView.code.map((item) =>
+    <p>{item}</p>
+  )
+  const listToolbox = this.state.caseInView.toolbox.map((item) =>
+    <p>{item}</p>
+  )
+  const listMore = this.state.caseInView.more.map((item) =>
+    <p>{item}</p>
+  )
+console.log(listCode)
   return (
     <div className="casePage">
       <div className="wrapper">
@@ -29,25 +40,15 @@ render() {
         <div className="techSection">
           <div className="techSpecs">
             <h3>CODE</h3>
-            <p>HTML5</p>
-            <p>CSS5</p>
-            <p>JavaScript ES6</p>
-            <p>React</p>
-            <p>SASS</p>
-            <p>GitHub</p>
-            <p>Node.js</p>
+              {listCode}
           </div>
           <div className="techSpecs">
             <h3>TOOLBOX</h3>
-            <p>Atom</p>
-            <p>Postman</p>
-            <p>Adobe Photoshop</p>
-            <p>Slack</p>
+            {listToolbox}
           </div>
           <div className="techSpecs">
             <h3>MORE</h3>
-            <p>Concept development</p>
-            <p>Agile methodology</p>
+            {listMore}
           </div>
         </div>
         <div className="projectButton">
@@ -55,7 +56,7 @@ render() {
         </div>
       </div>
       <div className="footer">
-        <h3>JEANETTE K LINDBERG</h3>
+        <p>JEANETTE K LINDBERG</p>
         <p>aejlindberg@gmail.com</p>
         <p>+4676 020 69 51</p>
       </div>
