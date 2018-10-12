@@ -17,9 +17,8 @@ class LandingPage extends React.Component {
               <h2>Jeanette Kalafatidis Lindberg</h2>
               <h1>FRONTEND<br />DEVELOPER<br />+ TREND ANALYST</h1>
               <p>I am Jeanette, a frontend developer and trend analyst.
-              My expertise is the digitization of society and the effect
-              on people, and with my programming skills this makes a
-              perfect match &#9734;
+              My sight is focused on the digitization of society and the positive effects
+              this transformation can have on people. &#9734;
               </p>
               <div className="aboutMeButton">
                 <button>SEE MY GITHUB</button>

@@ -2,17 +2,17 @@
   "cases": [{
       "key": 1,
       "title": "Clock built in React",
-      "image": "/images/case1.jpg",
-      "description": "Built a clock by using state in React. Added two buttons, one that pauses the clock and one that makes the clock run again. Used CSS for styling and to make the background change based on the time of the day.",
+      "image": "./images/case1.jpg",
+      "description": "For this project I built a clock by using state in React. Also, I added buttons that pauses the clock and makes the clock run again. A JavaScript function makes the background change based on the time of the day.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom", "Postman"],
       "more": ["Concept development", "Agile methodology"]
     },
     {
       "key": 2,
-      "title": "Radio player built in React using Sveriges Radios API",
-      "image": "/images/case2.jpg",
-      "description": "Created a working radio player by using Sveriges Radio API. Fetched information about the radio channels and playable audio stream urls.",
+      "title": "Radio player built in React using SR:s API",
+      "image": "./images/case2.jpg",
+      "description": "This project aimed at creating a working radio player. By using Sveriges Radio API I could fetch information about the radio channels and fetch playable audio stream urls.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom", "Postman"],
       "more": ["Concept development", "Agile methodology"]
@@ -20,26 +20,38 @@
     {
       "key": 3,
       "title": "FAQ-site with JavaScript",
-      "image": "/images/case3.jpg",
-      "description": "About the project. Lorem ipsum dolor sit amet..."
+      "image": "./images/case3.jpg",
+      "description": "In this poject I practiced on using the JavaScript toggle function to build a FAQ-accordion to show and hide text.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
+      "toolbox": ["Atom", "Postman"],
+      "more": ["Concept development", "Agile methodology"]
     },
     {
       "key": 4,
       "title": "Product listing with React",
-      "image": "/images/case4.jpg",
-      "description": "About the project. Lorem ipsum dolor sit amet..."
+      "image": "./images/case4.jpg",
+      "description": "With a JSON-file with an array of multiple pharmacy products I built a webpage with the look of an e-commerce store. I used the JSON-file to render a React component for each product. Added hover effect to display more information.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+      "toolbox": ["Atom"],
+      "more": ["Concept development", "Agile methodology"]
     },
     {
       "key": 5,
-      "title": "Radio player built in React using Sveriges Radios API:s",
-      "image": "/images/case5.jpg",
-      "description": "About the project. Lorem ipsum dolor sit amet..."
+      "title": "A design brief comes to life in React",
+      "image": "./images/case5.jpg",
+      "description": "For this project I was given a design brief, which I used to build a responsive website.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+      "toolbox": ["Atom"],
+      "more": ["Concept development", "Agile methodology", "Digital design"]
     },
     {
       "key": 6,
-      "title": "Radio player built in React using Sveriges Radios API:s",
-      "image": "/images/case6.jpg",
-      "description": "About the project. Lorem ipsum dolor sit amet..."
+      "title": "New career page for Comprend",
+      "image": "./images/case6.jpg",
+      "description": "The project brief was to create a career page for the consultancy company Comprend. My team used Comprend's internal career API to build four different pages. Data was fetched to display a job listing tablecontaining a job listing with filter function and information of available jobs.",
+      "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
+      "toolbox": ["Atom", "Postman", "Adobe Photoshop", "Keynote", "Slack"],
+      "more": ["Strategy", "Concept development", "Agile methodology", "Digital design"]
     }
 
   ]

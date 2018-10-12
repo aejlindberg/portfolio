@@ -20,7 +20,7 @@ class Skills extends React.Component {
           </div>
           <div className="skills">
             <h3>TOOLBOX</h3>
-            <p>ATOM</p>
+            <p>Atom</p>
             <p>Postman</p>
             <p>Adobe Photoshop</p>
             <p>Adobe InDesign</p>
@@ -34,6 +34,7 @@ class Skills extends React.Component {
             <p>Trend analysis</p>
             <p>Ethnography</p>
             <p>Strategy</p>
+            <p>Concept development</p>
             <p>Agile methodology</p>
             <p>Digital design</p>
           </div>
