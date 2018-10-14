@@ -4,7 +4,7 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="skillsSection">
         <h2>SKILLS</h2>
         <div className="skillsColumns">
           <div className="skills">

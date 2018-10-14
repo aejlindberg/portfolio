@@ -2,7 +2,7 @@
   "cases": [{
       "key": 1,
       "title": "Clock built in React",
-      "image": "./images/case1.jpg",
+      "image": "./images/caseClock.png",
       "description": "For this project I built a clock by using state in React. Also, I added buttons that pauses the clock and makes the clock run again. A JavaScript function makes the background change based on the time of the day.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom", "Postman"],
@@ -11,7 +11,7 @@
     {
       "key": 2,
       "title": "Radio player built in React using SR:s API",
-      "image": "./images/case2.jpg",
+      "image": "./images/caseRadioPlayer.png",
       "description": "This project aimed at creating a working radio player. By using Sveriges Radio API I could fetch information about the radio channels and fetch playable audio stream urls.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom", "Postman"],
@@ -47,7 +47,7 @@
     {
       "key": 6,
       "title": "New career page for Comprend",
-      "image": "./images/case6.jpg",
+      "image": "./images/caseComprend.png",
       "description": "The project brief was to create a career page for the consultancy company Comprend. My team used Comprend's internal career API to build four different pages. Data was fetched to display a job listing tablecontaining a job listing with filter function and information of available jobs.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom", "Postman", "Adobe Photoshop", "Keynote", "Slack"],

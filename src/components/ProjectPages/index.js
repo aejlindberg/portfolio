@@ -35,7 +35,7 @@ console.log(listCode)
         </div>
 
         <div className="techSpecsSection">
-          <h1>TECH SPECS</h1>
+          <h2>TECH SPECS</h2>
         </div>
         <div className="techSection">
           <div className="techSpecs">

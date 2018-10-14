@@ -11,14 +11,13 @@ class LandingPage extends React.Component {
         <div className="wrapper">
           <div className="aboutMeSection">
             <div className="aboutMeImage">
-              <img src="/images/me.png" alt="Jeanette K Lindberg" />
+              <img src="./images/me.png" alt="Jeanette K Lindberg" />
             </div>
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
-              <h1>FRONTEND<br />DEVELOPER<br />+ TREND ANALYST</h1>
-              <p>I am Jeanette, a frontend developer and trend analyst.
-              My sight is focused on the digitization of society and the positive effects
-              this transformation can have on people. &#9734;
+              <h1>FRONTEND DEVELOPER<br /><span>+</span> DIGITAL TREND ANALYST</h1>
+              <p>I´m Jeanette. I stand on a sweet spot where the creation and understanding
+              of digitization intersect.
               </p>
               <div className="aboutMeButton">
                 <button>SEE MY GITHUB</button>

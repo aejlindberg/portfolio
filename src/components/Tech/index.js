@@ -9,7 +9,7 @@ class Tech extends React.Component {
       <div className="case">
         <p><strong>{this.props.title}</strong></p>
         <Link to={`/cases/${this.props.id}`}>
-          <img src={this.props.image} alt="tech" />
+          <img src={this.props.image} alt="" />
         </Link >
         <p>{this.props.description}</p>
       </div>
