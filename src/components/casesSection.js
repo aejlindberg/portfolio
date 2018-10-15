@@ -9,7 +9,7 @@ class Cases extends React.Component {
 
     return (
       <div className="casesGrid">
-        <div className="techSection">
+        <div className="casesGridItems">
           {projectsJson.cases.map(item => <Tech
             id={item.key}
             title={item.title}

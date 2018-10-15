@@ -29,8 +29,7 @@ class LandingPage extends React.Component {
             <h2>TECH</h2>
             <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox,
              JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s &bull; 6 sprints with
-             demos together with companies like Volumental, Bonnier, Comprend @ Technigo &bull;
-             Exploring Machine Learning
+             demos together with companies like Volumental, Bonnier, Comprend @ Technigo
             </p>
           </div>
           <div className="casesSection">

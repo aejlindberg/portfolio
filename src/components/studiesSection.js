@@ -18,11 +18,11 @@ class Studies extends React.Component {
             with companies like Volumental, Bonnier News and
             Comprend.
             </p>
-            <p>Sthlm Sep.-Nov. 2018</p>
+            <p>Stockholm Sep.-Nov. 2018</p>
           </div>
           <div className="studies">
             <h3>JAVASCRIPT</h3>
-            <p>3 day intensive course in JavaScript. Covering the basics
+            <p>3 days intensive course in JavaScript. Covering the basics
             of JavaScript and how to fetch API:s. Built a newsite with
             the Google News API.
             </p>
@@ -30,26 +30,32 @@ class Studies extends React.Component {
           </div>
           <div className="studies">
             <h3>HTML AND CSS</h3>
-            <p>Online Course. Learned HTML and CSS, and the basics of
-            a webpage.
+            <p>5 days online course. A quick insight into the three languages
+            that form the basis of web programming: HTML, CSS and JavaScript.
             </p>
-            <p>Sthlm Feb. 2018</p>
+            <p>Stockholm Feb. 2018</p>
           </div>
           <div className="studies">
             <h3>WORDPRESS</h3>
-            <p>Introduction to WordPress.
+            <p>2 full days introduction to WordPress. Covering the essentials
+            of how to build and modify a webpage in Wordpress.
             </p>
-            <p>Sthlm Feb. 2014</p>
+            <p>Stockholm Feb. 2014</p>
           </div>
           <div className="studies">
             <h3>MASTER IN SOCIAL ANTHROPOLOGY</h3>
-            <p>5 years at Stockholm University.
+            <p>5 years at Stockholm University. The master’s program
+            consisted of a number of courses in theory and method, a
+            wide selection of elective, specialized courses, and a
+            one-term master’s thesis, based on two-three months of
+            fieldwork. My main focus was digital anthropology.
             </p>
-            <p>Sthlm Sep. 2005-Sep. 2010</p>
+            <p>Stockholm Sep. 2005-Sep. 2010</p>
           </div>
         </div>
         <div className="studiesButton">
-          <button>SEE MY LINKEDIN</button>
+          <button href="https://www.linkedin.com/in/jeanette-k-lindberg-93961441/">
+          SEE MY LINKEDIN</button>
         </div>
       </div>
     )
