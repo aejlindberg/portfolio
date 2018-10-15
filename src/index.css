@@ -22,6 +22,7 @@ button {
   font-family: "Maven Pro", sans-serif;
   margin: 40px auto;
   padding: 15px 25px;
+  outline: none;
   width: 200px;
 }
 
@@ -38,10 +39,11 @@ h2 {
 
 h3 {
   font-weight: 900;
+  margin-bottom: 0;
 }
 
 img {
-  margin-top: 0;
+  margin-top: 0px;
   width: 100%;
 }
 
@@ -55,8 +57,9 @@ span {
   margin: 0 auto;
 }
 
+/* LP About me section */
 .aboutMeSection {
-  margin: 60px 0;
+  margin: 40px 0;
   display: flex;
   display: row;
 }
@@ -80,17 +83,7 @@ span {
   font-weight: 300;
   font-style: italic;
 }
-
-.techSection,
-.skillsColumns,
-.studiesColumns {
-  width: 100%;
-  margin-bottom: 50px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
+ /* LP tech text */
 .techText {
   font-size: 20px;
   letter-spacing: 2px;
@@ -98,19 +91,29 @@ span {
   margin-bottom: 50px;
 }
 
-.caseDescription {
-  width: 60%;
+/* Grid and columns */
+.casesGridItems,
+.skillsColumns,
+.studiesColumns,
+.techSpecsColumns {
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
-.techSection img {
+/* LP cases grid */
+.case {
+  margin-right: 10px;
+  width: 48%;
+}
+
+.case img {
   height: 260px;
 }
 
-.case {
-  width: 390px;
-  margin-right: 10px;
-}
-
+/* LP studies section */
 .studies {
   width: 45%;
   display: flex;
@@ -118,6 +121,16 @@ span {
   justify-content: flex-start;
 }
 
+/* Project pages */
+.caseDescription {
+  width: 60%;
+}
+
+.caseImage {
+  margin-top: 20px;
+}
+
+/* Styled buttons */
 .projectButton,
 .studiesButton {
   display: flex;
@@ -125,6 +138,7 @@ span {
   align-items: center;
 }
 
+/* Footer */
 .footer {
   background-color: #66101F;
   color: #E6E6EA;
