@@ -16,7 +16,7 @@ class LandingPage extends React.Component {
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
               <h1>FRONTEND DEVELOPER<br /><span>+</span> DIGITAL TREND ANALYST</h1>
-              <p>I´m Jeanette. I stand on a sweet spot where the creation and understanding
+              <p>I´m Jeanette, a curious and creative web developer with a thing for understanding "why". I stand on a spot where the creation and understanding
               of digitization intersect.
               </p>
               <div className="aboutMeButton">
@@ -29,7 +29,7 @@ class LandingPage extends React.Component {
             <h2>TECH</h2>
             <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox,
              JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s &bull; 6 sprints with
-             demos together with companies like Volumental, Bonnier, Comprend @ Technigo
+             demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel @ Technigo
             </p>
           </div>
           <div className="casesSection">
