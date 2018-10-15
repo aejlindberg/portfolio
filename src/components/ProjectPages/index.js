@@ -9,6 +9,7 @@ state = {
   caseInView: projectsJson.cases[this.props.match.params.id - 1]
 }
 render() {
+  window.scrollTo(0, 0)
 
   const listCode = this.state.caseInView.code.map((item) =>
     <p>{item}</p>
@@ -19,7 +20,7 @@ render() {
   const listMore = this.state.caseInView.more.map((item) =>
     <p>{item}</p>
   )
-console.log(listCode)
+
   return (
     <div className="casePage">
       <div className="wrapper">
@@ -37,7 +38,7 @@ console.log(listCode)
         <div className="techSpecsSection">
           <h2>TECH SPECS</h2>
         </div>
-        <div className="techSection">
+        <div className="techSpecsColumns">
           <div className="techSpecs">
             <h3>CODE</h3>
               {listCode}
