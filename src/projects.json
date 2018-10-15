@@ -20,7 +20,7 @@
     {
       "key": 3,
       "title": "FAQ-site with JavaScript",
-      "image": "./images/case3.jpg",
+      "image": "./images/caseFAQ.png",
       "description": "In this poject I practiced on using the JavaScript toggle function to build a FAQ-accordion to show and hide text.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "Github"],
       "toolbox": ["Atom", "Postman"],
@@ -29,7 +29,7 @@
     {
       "key": 4,
       "title": "Product listing with React",
-      "image": "./images/case4.jpg",
+      "image": "./images/caseProducts.png",
       "description": "With a JSON-file with an array of multiple pharmacy products I built a webpage with the look of an e-commerce store. I used the JSON-file to render a React component for each product. Added hover effect to display more information.",
       "code": ["HTML5", "CSS3", "JavaScript ES6", "React", "Github"],
       "toolbox": ["Atom"],
