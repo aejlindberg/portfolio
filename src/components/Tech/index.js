@@ -7,7 +7,9 @@ class Tech extends React.Component {
   render() {
     return (
       <div className="case">
-        <p><strong>{this.props.title}</strong></p>
+        <div>
+          <h3><strong>{this.props.title}</strong></h3>
+        </div>
         <Link to={`/cases/${this.props.id}`}>
           <img src={this.props.image} alt="" />
         </Link >

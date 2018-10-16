@@ -16,9 +16,9 @@ body {
 }
 
 button {
-  background-color: #C7A8AD;
+  background-color: #66101F;
   border-radius: 20px;
-  color: #66101F;
+  color: #E6E6E6;
   font-family: "Maven Pro", sans-serif;
   margin: 40px auto;
   padding: 15px 25px;
@@ -32,14 +32,15 @@ h1 {
 }
 
 h2 {
-  color: #66101F;
+  border-bottom: 4px dotted #66101F;
+  color: #545454;
   font-family: "Maven Pro", sans-serif;
   font-weight: 900;
+  line-height: 1.5;
 }
 
 h3 {
   font-weight: 900;
-  margin-bottom: 0;
 }
 
 img {
@@ -59,7 +60,7 @@ span {
 
 /* LP About me section */
 .aboutMeSection {
-  margin: 40px 0;
+  margin: 40px 0 10px 0;
   display: flex;
   display: row;
 }
@@ -71,6 +72,8 @@ span {
 .aboutMeImage img {
   margin-top: 40px;
   width: 100%;
+  /* position: relative;
+  z-index: 10; */
 }
 
 .aboutMeText {
@@ -82,7 +85,39 @@ span {
   font-family: "Muli", sans-serif;
   font-weight: 300;
   font-style: italic;
+  border-bottom: none;
 }
+
+/* .wrapper .colorBox {
+  position: absolute;
+  margin: 40px;
+}
+
+#green {
+  width: 400px;
+  height: 400px;
+  background-color: #284943;
+  left: 200px;
+  top: 100px;
+  opacity: 0.8;
+} */
+
+/* #wine {
+  width: 400px;
+  height: 400px;
+  background-color: #75B0A6;
+  left: 200px;
+  top: 20px;
+}
+
+#gray {
+  width: 400px;
+  height: 400px;
+  background-color: #C1DCD7;
+  left: 200px;
+  top: 200px;
+} */
+
  /* LP tech text */
 .techText {
   font-size: 20px;
@@ -109,6 +144,10 @@ span {
   width: 48%;
 }
 
+.case h3 {
+height: 35px;
+}
+
 .case img {
   height: 260px;
 }
@@ -131,6 +170,8 @@ span {
 }
 
 /* Styled buttons */
+.aboutMeButton,
+.githubButton,
 .projectButton,
 .studiesButton {
   display: flex;

@@ -31,8 +31,8 @@ render() {
         <div className="caseDescription">
           <h1>{this.state.caseInView.title}
           </h1>
-          <p><span>About the project:</span> {this.state.caseInView.description}</p>
-          <button>SEE IT LIVE</button>
+          <p><span>About:</span> {this.state.caseInView.description}</p>
+          <a href={this.state.caseInView.link} target="_blank"><button>SEE IT LIVE</button></a>
         </div>
 
         <div className="techSpecsSection">
@@ -53,7 +53,7 @@ render() {
           </div>
         </div>
         <div className="projectButton">
-          <a href={this.state.caseInView.url}><button>VIEW THE CODE</button></a>
+          <a href={this.state.caseInView.url} target="_blank"><button>VIEW THE CODE</button></a>
         </div>
       </div>
       <div className="footer">

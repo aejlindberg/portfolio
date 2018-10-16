@@ -47,8 +47,8 @@ class Studies extends React.Component {
             <p>5 years at Stockholm University. The master’s program
             consisted of a number of courses in theory and method, a
             wide selection of elective, specialized courses, and a
-            one-term master’s thesis, based on two-three months of
-            fieldwork. My main focus was digital anthropology.
+            one-term master’s thesis, based on three months of
+            fieldwork. Main focus for my master’s was digital anthropology.
             </p>
             <p>Stockholm Sep. 2005-Sep. 2010</p>
           </div>

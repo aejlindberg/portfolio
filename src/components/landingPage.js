@@ -11,29 +11,37 @@ class LandingPage extends React.Component {
         <div className="wrapper">
           <div className="aboutMeSection">
             <div className="aboutMeImage">
+              <div className="colorBox" id="green"></div>
+              <div className="colorBox" id="wine"></div>
+              <div className="colorBox" id="gray"></div>
               <img src="./images/me.png" alt="Jeanette K Lindberg" />
             </div>
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
-              <h1>Frontend Developer<br /><span>+</span> Digital Trend Analyst</h1>
-              <p>I´m Jeanette, a curious and creative web developer with a thing for understanding "why". I stand on a spot where the creation and understanding
-              of digitization intersect.
+              <h1>Front-end Developer<br /><span>+</span> Digital Trend Analyst</h1>
+              <p>I´m Jeanette, a curious and creative web developer with a passion
+              for understanding "why". With more than 7 years’ experience of analysis
+              within the tech area, I am standing on a inspiring spot where the creation
+              and understanding of digitization intersect.
               </p>
               <div className="aboutMeButton">
-                <a href="https://github.com/aejlindberg"><button>SEE MY GITHUB</button></a>
+                <a href="https://github.com/aejlindberg" target="_blank"><button>SEE MY GITHUB</button></a>
               </div>
             </div>
           </div>
 
           <div className="techText">
             <h2>Tech</h2>
-            <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox,
-             JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s &bull; 6 sprints with
-             demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel @ Technigo
+            <p>480 coding hours <span>&bull;</span> 50+ individual tasks <span>&bull;</span> HTML5, CSS, SASS, Flexbox,
+             JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s <span>&bull;</span> 6 sprints with
+             demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel <span>@</span> Technigo
             </p>
           </div>
           <div className="casesSection">
             <Cases />
+          </div>
+          <div className="githubButton">
+            <a href="https://github.com/aejlindberg?tab=repositories" target="_blank"><button>SEE ALL PROJECTS</button></a>
           </div>
           <div className="skillsSection">
             <Skills />
