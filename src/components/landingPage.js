@@ -15,18 +15,18 @@ class LandingPage extends React.Component {
             </div>
             <div className="aboutMeText">
               <h2>Jeanette Kalafatidis Lindberg</h2>
-              <h1>FRONTEND DEVELOPER<br /><span>+</span> DIGITAL TREND ANALYST</h1>
+              <h1>Frontend Developer<br /><span>+</span> Digital Trend Analyst</h1>
               <p>I´m Jeanette, a curious and creative web developer with a thing for understanding "why". I stand on a spot where the creation and understanding
               of digitization intersect.
               </p>
               <div className="aboutMeButton">
-                <button>SEE MY GITHUB</button>
+                <a href="https://github.com/aejlindberg"><button>SEE MY GITHUB</button></a>
               </div>
             </div>
           </div>
 
           <div className="techText">
-            <h2>TECH</h2>
+            <h2>Tech</h2>
             <p>480 coding hours &bull; 50+ individual tasks &bull; HTML5, CSS, SASS, Flexbox,
              JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s &bull; 6 sprints with
              demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel @ Technigo
@@ -43,7 +43,7 @@ class LandingPage extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <p>JEANETTE K LINDBERG</p>
+          <p><strong>Jeanette K Lindberg</strong></p>
           <p>aejlindberg@gmail.com</p>
           <p>+46 76 020 69 51</p>
         </div>

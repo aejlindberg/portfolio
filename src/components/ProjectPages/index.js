@@ -53,7 +53,7 @@ render() {
           </div>
         </div>
         <div className="projectButton">
-          <button>VIEW THE CODE</button>
+          <a href={this.state.caseInView.url}><button>VIEW THE CODE</button></a>
         </div>
       </div>
       <div className="footer">

@@ -5,45 +5,45 @@ class Studies extends React.Component {
   render() {
     return (
       <div>
-        <h2>STUDIES</h2>
+        <h2>Studies</h2>
         <div className="studiesColumns">
           <div className="studies">
-            <h3>FRONTEND DEVELOPER</h3>
+            <h3>Frontend development</h3>
             <p>Full-time 12 w boot camp / intensive program.
             Covering everything from the basics of programming
             to how to structure and build bigger web projects.
             Focus on JavaScript. Total 480 coding hours, 50 +
             individual tasks (in HTML5, CSS, JavaScript, JSX,
             React, Node.js) and 6 sprints with demos together
-            with companies like Volumental, Bonnier News and
-            Comprend.
+            with companies like Volumental, Bonnier News Comprend and
+            Svenska Spel.
             </p>
             <p>Stockholm Sep.-Nov. 2018</p>
           </div>
           <div className="studies">
-            <h3>JAVASCRIPT</h3>
+            <h3>JavaScript</h3>
             <p>3 days intensive course in JavaScript. Covering the basics
-            of JavaScript and how to fetch API:s. Built a newsite with
+            of JavaScript and how to fetch API:s. Built a news site with
             the Google News API.
             </p>
             <p>Visby Sep. 2018</p>
           </div>
           <div className="studies">
-            <h3>HTML AND CSS</h3>
+            <h3>HTML and CSS</h3>
             <p>5 days online course. A quick insight into the three languages
             that form the basis of web programming: HTML, CSS and JavaScript.
             </p>
             <p>Stockholm Feb. 2018</p>
           </div>
           <div className="studies">
-            <h3>WORDPRESS</h3>
+            <h3>Wordpress</h3>
             <p>2 full days introduction to WordPress. Covering the essentials
             of how to build and modify a webpage in Wordpress.
             </p>
             <p>Stockholm Feb. 2014</p>
           </div>
           <div className="studies">
-            <h3>MASTER IN SOCIAL ANTHROPOLOGY</h3>
+            <h3>Master in Social Anthropology</h3>
             <p>5 years at Stockholm University. The master’s program
             consisted of a number of courses in theory and method, a
             wide selection of elective, specialized courses, and a

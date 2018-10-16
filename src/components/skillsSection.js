@@ -5,10 +5,10 @@ class Skills extends React.Component {
   render() {
     return (
       <div className="skillsSection">
-        <h2>SKILLS</h2>
+        <h2>Skills</h2>
         <div className="skillsColumns">
           <div className="skills">
-            <h3>CODE</h3>
+            <h3>Code</h3>
             <p>HTML5</p>
             <p>CSS3</p>
             <p>JavaScript ES6</p>
@@ -19,7 +19,7 @@ class Skills extends React.Component {
             <p>MongoDB</p>
           </div>
           <div className="skills">
-            <h3>TOOLBOX</h3>
+            <h3>Toolbox</h3>
             <p>Atom</p>
             <p>Postman</p>
             <p>Adobe Photoshop</p>
@@ -30,7 +30,7 @@ class Skills extends React.Component {
             <p>Slack</p>
           </div>
           <div className="skills">
-            <h3>MORE</h3>
+            <h3>More</h3>
             <p>Trend analysis</p>
             <p>Ethnography</p>
             <p>Strategy</p>
