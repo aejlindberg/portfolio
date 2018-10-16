@@ -54,8 +54,8 @@ class Studies extends React.Component {
           </div>
         </div>
         <div className="studiesButton">
-          <button href="https://www.linkedin.com/in/jeanette-k-lindberg-93961441/">
-          SEE MY LINKEDIN</button>
+          <a href="https://www.linkedin.com/in/jeanette-k-lindberg-93961441/" target="_blank"><button>
+          SEE MY LINKEDIN</button></a>
         </div>
       </div>
     )
