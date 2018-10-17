@@ -33,7 +33,7 @@ class LandingPage extends React.Component {
           <div className="techText">
             <h2>Tech</h2>
             <p>480 coding hours <span>&bull;</span> 50+ individual tasks <span>&bull;</span> HTML5, CSS, SASS, Flexbox,
-             JavaScript, ES6, JSX, React, Node.js, Mongo DB, API:s <span>&bull;</span> 6 sprints with
+             JavaScript ES6, JSX, React, Node.js, Mongo DB, API:s <span>&bull;</span> 6 sprints with
              demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel <span>@</span> Technigo
             </p>
           </div>
@@ -48,6 +48,20 @@ class LandingPage extends React.Component {
           </div>
           <div className="studiesSection">
             <Studies />
+          </div>
+          <div className="workSection">
+            <h2>Work</h2>
+            <div className="workText">
+              <p>With more than 7 years’ experience of analysis with technology as the main field of interest, I have
+              gathered major insights on the ongoing transformation to a digitized world. I have been involved in
+              larger projects resulting in an in-depth understanding of where the forces of digitalization is taking
+              us, and I have published multiple articles on the subject. As a web developer I am intrigued by the
+              opportunity to influence this transformation. Visit my LinkedIn to learn more about my experiences.</p>
+            </div>
+            <div className="workButton">
+              <a href="https://www.linkedin.com/in/jeanette-k-lindberg/" target="_blank"><button>
+              SEE MY LINKEDIN</button></a>
+            </div>
           </div>
         </div>
         <div className="footer">
