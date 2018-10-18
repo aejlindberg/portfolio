@@ -11,14 +11,13 @@ class LandingPage extends React.Component {
         <div className="wrapper">
           <div className="aboutMeSection">
             <div className="aboutMeImage">
-              <div className="colorBox" id="green"></div>
-              <div className="colorBox" id="wine"></div>
-              <div className="colorBox" id="gray"></div>
               <img src="./images/me.png" alt="Jeanette K Lindberg" />
             </div>
             <div className="aboutMeText">
-              <h2>Jeanette Kalafatidis Lindberg</h2>
-              <h1>Front-end Developer<br /><span>+</span> Digital Trend Analyst</h1>
+              <div className="aboutMeName">
+                <h2>Jeanette Kalafatidis Lindberg</h2>
+              </div>
+              <h1>Frontend Developer<br /><span>+</span> Digital Trend Analyst</h1>
               <p>I´m Jeanette, a curious and creative web developer with a passion
               for understanding "why". With more than 7 years’ experience of analysis
               within the tech area, I am standing on a inspiring spot where the creation
@@ -65,7 +64,7 @@ class LandingPage extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <p><strong>Jeanette K Lindberg</strong></p>
+          <p><strong>Jeanette Kalafatidis Lindberg</strong></p>
           <p>aejlindberg@gmail.com</p>
           <p>+46 76 020 69 51</p>
         </div>

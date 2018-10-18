@@ -39,17 +39,23 @@ render() {
           <h2>TECH SPECS</h2>
         </div>
         <div className="techSpecsColumns">
-          <div className="techSpecs">
+          <div className="techSpecsColumnsSingle">
             <h3>CODE</h3>
-              {listCode}
+            <div className="techSpecs">
+                {listCode}
+            </div>
           </div>
-          <div className="techSpecs">
+          <div className="techSpecsColumnsSingle">
             <h3>TOOLBOX</h3>
-            {listToolbox}
+            <div className="techSpecs">
+              <p>{listToolbox}</p>
+            </div>
           </div>
-          <div className="techSpecs">
+          <div className="techSpecsColumnsSingle">
             <h3>MORE</h3>
-            {listMore}
+            <div className="techSpecs">
+              <p>{listMore}</p>
+            </div>
           </div>
         </div>
         <div className="projectButton">

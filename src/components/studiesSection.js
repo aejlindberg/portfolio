@@ -17,7 +17,7 @@ class Studies extends React.Component {
             React, Node.js) and 6 sprints with demos together
             with companies like Volumental, Bonnier News Comprend and
             Svenska Spel.
-            <br />><em>Stockholm Sep.-Nov. 2018</em></p>
+            <br /><em>Stockholm Sep.-Nov. 2018</em></p>
           </div>
           <div className="studies">
             <h3>JavaScript ES6</h3>
