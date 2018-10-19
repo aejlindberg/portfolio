@@ -27,6 +27,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-appearance: none;
+  border-style: none;
 }
 
 button:hover {
@@ -183,6 +185,7 @@ height: 35px;
 .linkedinButton button {
   background-color: #92B9BD;
 }
+
 .linkedinButton button:hover {
   background-color: #545454;
 }
