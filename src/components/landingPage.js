@@ -20,11 +20,25 @@ class LandingPage extends React.Component {
               <h1>Frontend Developer<br /><span>+</span> Digital Trend Analyst</h1>
               <p>I´m Jeanette, a curious and creative web developer with a passion
               for understanding "why". With more than 7 years’ experience of analysis
-              within the tech area, I am standing on a inspiring spot where the creation
-              and understanding of digitization intersect.
+              within the tech area, I am standing on an inspiring spot where the creation
+              and understanding of digitization intersect.<br /><br />As a web developer
+              I am intrigued by the possibilities to create amazing solutions for people.
               </p>
               <div className="aboutMeButton">
-                <a href="https://github.com/aejlindberg" target="_blank"><button>SEE MY GITHUB</button></a>
+                <div className="linkedinButton">
+                  <a href="https://www.linkedin.com/in/jeanette-k-lindberg/" target="_blank">
+                  <button>
+                    <img src="./images/linkedinLogo.png" alt="LinkedIn" />
+                    SEE MY LINKEDIN
+                  </button></a>
+                </div>
+                <div className="githubButton">
+                  <a href="https://github.com/aejlindberg" target="_blank">
+                  <button>
+                    <img src="./images/githubLogo.png" alt="GitHub" />
+                    SEE MY GITHUB</button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -40,7 +54,10 @@ class LandingPage extends React.Component {
             <Cases />
           </div>
           <div className="githubButton">
-            <a href="https://github.com/aejlindberg?tab=repositories" target="_blank"><button>SEE ALL PROJECTS</button></a>
+            <a href="https://github.com/aejlindberg?tab=repositories" target="_blank">
+            <button>
+              <img src="./images/githubLogo.png" alt="GitHub" />
+              SEE MORE PROJECTS</button></a>
           </div>
           <div className="skillsSection">
             <Skills />
@@ -52,14 +69,18 @@ class LandingPage extends React.Component {
             <h2>Work</h2>
             <div className="workText">
               <p>With more than 7 years’ experience of analysis with technology as the main field of interest, I have
-              gathered major insights on the ongoing transformation to a digitized world. I have been involved in
-              larger projects resulting in an in-depth understanding of where the forces of digitalization is taking
-              us, and I have published multiple articles on the subject. As a web developer I am intrigued by the
-              opportunity to influence this transformation. Visit my LinkedIn to learn more about my experiences.</p>
+              gathered major insights of the ongoing transformation of the digitized world. <br /><br />I have been project manager
+              within larger projects that has given me an in-depth understanding of where the forces of digitalization
+              is taking us, and I have published multiple articles on the subject. <br /><br />As a web developer I am intrigued
+              by the opportunity to contribute to this transformation and the possibilities to create amazing solutions
+              for people. Visit my LinkedIn to learn more about my experiences.</p>
             </div>
-            <div className="workButton">
-              <a href="https://www.linkedin.com/in/jeanette-k-lindberg/" target="_blank"><button>
-              SEE MY LINKEDIN</button></a>
+            <div className="linkedinButton">
+              <a href="https://www.linkedin.com/in/jeanette-k-lindberg/" target="_blank">
+              <button>
+                <img src="./images/linkedinLogo.png" alt="LinkedIn" />
+                SEE MY LINKEDIN
+              </button></a>
             </div>
           </div>
         </div>

@@ -32,7 +32,12 @@ render() {
           <h1>{this.state.caseInView.title}
           </h1>
           <p><span>About:</span> {this.state.caseInView.description}</p>
-          <a href={this.state.caseInView.link} target="_blank"><button>SEE IT LIVE</button></a>
+          <div className="caseButton">
+            <a href={this.state.caseInView.link} target="_blank">
+            <button>
+              <img src="./images/githubLogo.png" alt="GitHub" />
+              SEE IT LIVE</button></a>
+          </div>
         </div>
 
         <div className="techSpecsSection">
@@ -58,8 +63,12 @@ render() {
             </div>
           </div>
         </div>
-        <div className="projectButton">
-          <a href={this.state.caseInView.url} target="_blank"><button>VIEW THE CODE</button></a>
+        <div className="githubButton">
+          <a href={this.state.caseInView.url} target="_blank">
+          <button>
+            <img src="./images/githubLogo.png" alt="GitHub" />
+            VIEW THE CODE
+          </button></a>
         </div>
       </div>
       <div className="footer">
