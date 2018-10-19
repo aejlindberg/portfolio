@@ -24,7 +24,7 @@
     {
       "key": 3,
       "title": "Clock built in React",
-      "image": "./images/caseClock.png",
+      "image": "./images/caseClock2.png",
       "description": "Built a clock by using state in React. Two buttons can be clicked to paus the clock and make the clock run again. A JavaScript function makes the background change based on the time of the day.",
       "link": "https://aejlindberg.github.io/clock/",
       "url": "https://github.com/aejlindberg/clock",

@@ -63,7 +63,7 @@ render() {
             </div>
           </div>
         </div>
-        <div className="githubButton">
+        <div className="caseGithubButton">
           <a href={this.state.caseInView.url} target="_blank">
           <button>
             <img src="./images/githubLogo.png" alt="GitHub" />
