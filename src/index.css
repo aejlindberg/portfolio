@@ -16,7 +16,7 @@ body {
 }
 
 button {
-  background-color: #545454;
+  background-color: #416165;
   border-radius: 20px;
   color: #E6E6E6;
   font-family: "Maven Pro", sans-serif;
@@ -30,7 +30,7 @@ button {
 }
 
 button:hover {
-  background-color: #416165;
+  background-color: #545454;
 }
 
 button img {
@@ -180,8 +180,11 @@ height: 35px;
   justify-content: space-between;
 }
 
-.linkedinButton button:hover {
+.linkedinButton button {
   background-color: #92B9BD;
+}
+.linkedinButton button:hover {
+  background-color: #545454;
 }
 
 /* Footer */
