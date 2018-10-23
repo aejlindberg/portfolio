@@ -46,8 +46,8 @@ class LandingPage extends React.Component {
           <div className="techText">
             <h2>Tech</h2>
             <p>480 coding hours <span>&bull;</span> 50+ individual tasks <span>&bull;</span> HTML5, CSS, SASS, Flexbox,
-             JavaScript ES6, JSX, React, Node.js, Mongo DB, API:s <span>&bull;</span> 6 sprints with
-             demos together with companies like Volumental, Bonnier, Comprend, Svenska Spel <span>@</span> Technigo
+             JavaScript ES6, JSX, React, Node.js, API:s <span>&bull;</span> 6 sprints with
+             demos together with companies like Volumental, Bonnier News, Comprend, Svenska Spel <span>@</span> Technigo
             </p>
           </div>
           <div className="casesSection">
@@ -57,7 +57,9 @@ class LandingPage extends React.Component {
             <a href="https://github.com/aejlindberg?tab=repositories" target="_blank">
             <button>
               <img src="./images/githubLogo.png" alt="GitHub" />
-              SEE MORE PROJECTS</button></a>
+              SEE MORE PROJECTS
+            </button>
+            </a>
           </div>
           <div className="skillsSection">
             <Skills />
@@ -69,11 +71,11 @@ class LandingPage extends React.Component {
             <h2>Work</h2>
             <div className="workText">
               <p>With more than 7 years’ experience of analysis with technology as the main field of interest, I have
-              gathered major insights of the ongoing transformation of the digitized world. <br /><br />I have been project manager
-              within larger projects that has given me an in-depth understanding of where the forces of digitalization
+              gathered major insights of the ongoing transformation of the digitized world. <br /><br />I have been in the management
+              team for larger multi-client projects, which has given me an in-depth understanding of where the forces of digitalization
               is taking us, and I have published multiple articles on the subject. <br /><br />As a web developer I am intrigued
               by the opportunity to contribute to this transformation and the possibilities to create amazing solutions
-              for people. Visit my LinkedIn to learn more about my experiences.</p>
+              for people. <br />Visit my LinkedIn to learn more about my experiences.</p>
             </div>
             <div className="linkedinButton">
               <a href="https://www.linkedin.com/in/jeanette-k-lindberg/" target="_blank">

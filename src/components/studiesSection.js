@@ -15,7 +15,7 @@ class Studies extends React.Component {
             Focus on JavaScript. Total 480 coding hours, 50 +
             individual tasks (in HTML5, CSS, JavaScript, JSX,
             React, Node.js) and 6 sprints with demos together
-            with companies like Volumental, Bonnier News Comprend and
+            with companies like Volumental, Bonnier News, Comprend and
             Svenska Spel.
             <br /><em>Stockholm Sep.-Nov. 2018</em></p>
           </div>

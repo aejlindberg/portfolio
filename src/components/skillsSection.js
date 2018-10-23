@@ -17,7 +17,6 @@ class Skills extends React.Component {
               <p>SASS</p>
               <p>GitHub</p>
               <p>Node.js</p>
-              <p>MongoDB</p>
             </div>
           </div>
           <div className="skillsColumnsSingle">
