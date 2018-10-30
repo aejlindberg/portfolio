@@ -5,7 +5,6 @@ import projectsJson from "../projects.json"
 class Cases extends React.Component {
 
   render() {
-    console.log(projectsJson.cases)
 
     return (
       <div className="casesGrid">
